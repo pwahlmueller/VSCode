@@ -25,4 +25,13 @@ These are my Keybindings. Keep in mind, I'm a PowerShell Guy, so the bindings or
 
 ## psprofile.ps1
 
-Coming soon
+* Set-Module path (to shorten modulepathes)
+* Startup
+    + User and Computer are displayed at startup
+    + Date and Time are displayed at startup
+* Prompt
+    + Timestamp in prompt
+    + Timespan of the last command in prompt
+    + Prompt in red for "as admin"
+    + Prompt color depends on PowerShell Provider
+
