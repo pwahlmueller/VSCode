@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"editorGroup.border": "#dcbbe2",
+			"panel.border": "#dcbbe2",
+			"sideBar.border": "#dcbbe2",
+			"tab.activeBorder": "#dcbbe2",
+			"titleBar.activeBackground": "#ca98d2",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#ca98d299",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.color": "#ca98d2",
+		"powershell.codeFormatting.addWhitespaceAroundPipe": true
+	}
+}

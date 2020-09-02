@@ -1,0 +1,55 @@
+﻿// Place your key bindings in this file to override the defaultsauto[]
+[
+    // Multicurso, wenn Standardkey Probleme macht
+     {
+         "key": "ctrl+shift+a",
+         "command": "editor.action.insertCursorAbove",
+         "when": "editorTextFocus"
+     },
+     {
+         "key": "ctrl+alt+up",
+         "command": "-editor.action.insertCursorAbove",
+         "when": "editorTextFocus"
+     },
+       // Pimp PowerShell Extension
+       {
+           "key": "ctrl+q a",    // Lines 2 Array Only
+           "command": "editor.action.insertSnippet",
+           "args": {
+             "snippet": "(${TM_SELECTED_TEXT/(.+)(\\r?\\n(?=\\S))?/'$1'${2:+,}/g}) ",
+           } ,
+         "when": "editorTextFocus && editorLangId == 'powershell'"
+         },
+       // Pimp MD
+       {
+         "key": "ctrl+q a",    // Lines 2 Array Only
+         "command": "editor.action.insertSnippet",
+         "args": {
+           "snippet": "${TM_SELECTED_TEXT/(.+)(\\r?\\n(?=\\S))?/'$1'${2:+,}/g}",
+         } ,
+       "when": "editorTextFocus && editorLangId == 'markdown'"
+       },
+         // Adding execution functionality to ms-sql similar to PowerShell
+         {
+           "key": "ctrl+shift+e",
+           "command": "-mssql.runQuery",
+           "when": "editorTextFocus"
+       },{
+           "key": "f5",
+           "command": "mssql.runQuery",
+           "when": "editorTextFocus && editorLangId == 'sql'"
+         },
+         {
+           "key": "f8",
+           "command": "mssql.runCurrentStatement",
+           "when": "editorTextFocus && editorLangId == 'sql'"
+         },
+         {
+           "key": "ctrl+q a",       // Lines 2 array with select 
+           "command": "editor.action.insertSnippet",
+           "args": {
+             "snippet": "Select * from [Table] where [Column] in (${TM_SELECTED_TEXT/\\s*(.+)(\\s)?/'$1'${2:+,}/g})"
+           },
+           "when": "editorTextFocus && editorLangId == 'sql'"
+         }
+ ]
