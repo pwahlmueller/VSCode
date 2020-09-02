@@ -1,16 +1,20 @@
 # VSCode
 Here are my VSCode settings.
 
+* Settings.json
+* Keybinding.json
+* psprofile.ps1
+
 ## Settings.json
 These are my settings with these features:
 
-* variables are one word (including $)
+* Variables are one word (including $) - selection and positioning feature
 * MouseWheel zooms
-* handles German Umlaute correctly 
+* Handles German Umlaute correctly 
 * Active Window defines the document type of a new window
 * Colorize borders and title with peacock (if peacock installed)
 * Terminal cache up to 5000 lines (needed)
-* git Confirmations disabled
+* Git Confirmations disabled
 * Testsettings for faster intellisense
 
 ## Keybindings.json

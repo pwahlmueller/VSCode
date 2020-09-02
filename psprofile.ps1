@@ -3,6 +3,7 @@
 ## PSProfile for VSCode
 ## wahlpatr 2019-10-16
 ##
+## 2020-09-02 v1.1.0   WahlPatr refreshed
 ## 2019-10-07 v1.0.0   WahlPatr Erstellt
 ##
 ########################################################################
