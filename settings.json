@@ -31,6 +31,7 @@
    "telemetry.enableTelemetry": false,                                                                                                                                                
    "terminal.integrated.rendererType": "dom",
    "terminal.integrated.scrollback": 5000,
+   "terminal.integrated.shell.windows": "C:\\Users\\<your_user_name>\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
    "update.enableWindowsBackgroundUpdates": false,
    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
    "window.zoomLevel": 0,
